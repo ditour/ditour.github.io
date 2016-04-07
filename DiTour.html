@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>DiTour App</title>
+		<link rel="icon" type="image/png" href="images/Open XAL Icon.png" />
+		<link rel="stylesheet" type="text/css" href="common.css" media="all" />
+		<style>
+			ul.options li { list-style-type: none; }
+			ul.options li:before { content: "+ "; }
+			ul.options li span.option { font-style: italic; }
+			ul.options li span.description { color: gray; }
+		</style>
+	</head>
+	<body>
+		<div class="title">DiTour App</div>
+
+
+		<div class="introduction">
+			The DiTour enterprise app for iPad is an award winning and disruptive digital signage app. It was deployed at SNS in November, 2012 as a cost saving, intuitive and reliable replacement compared to the previous third party solution. A single iPad replaces three pieces of expensive hardware from the previous system. Today, this app has gained popularity of its own merit with multiple site deployment around the lab.
+		</div>
+
+
+		<div class="section">
+			<div class="heading"><a name="description">Description</a></div>
+			<ul class="features">
+				<li>Displays a default slideshow in a continuous loop on a connected monitor</li>
+				<li>A track may be any sequence of images and videos</li>
+				<li>Modern and intuitive touch display for selecting a track to display (tour mode)</li>
+				<li>Automatically reverts back to the default slideshow after a delay</li>
+			</ul>
+		</div>
+
+
+		<div class="section">
+			<div class="heading"><a name="features">Version 4.1 Features</a></div>
+			<ul class="features">
+				<li>Runs on iPhone and iPad</li>
+				<li>Media is loaded from a remote server and stored on the device</li>
+				<li>Supports png, jpeg and gif image, PDF, web page, mp4 video and COLLADA dae slide formats</li>
+				<li>Multiple presentations can be stored on the device</li>
+				<li>Smart directory traversal for zero configuration remote media managment from http or https sites</li>
+				<li>Updates only the files it needs</li>
+				<li>Updates files in the background whether playing or if the app is in the background</li>
+
+				<li>Automatically dim the display with the following user selectable options</li>
+				<ul class="options">
+					<li><span class="option">Never</span>:  <span class="description">never automatically dim the screen</span></li>
+					<li><span class="option">On Battery Power</span>:  <span class="description">(default mode) monitors the battery state and dims the screen if on battery power and no activity for 5 minutes</span></li>
+					<li><span class="option">Inactive - Off Hours Only</span>:  <span class="description">Same as "On Battery Power" and will also dim the screen during off hours (user specified) and no activity for 30 minutes</span></li>
+					<li><span class="option">Inactive</span>:  <span class="description">Same as "On Battery Power" plus will also dim the screen after no activity for 30 minutes regardless of time of day</span></li>
+				</ul>
+
+				<li>Improved rendering of web slides</li>
+				<li>Web slides can be forced to resize by calling <span style="font-style: italic;">resizeDiTourSlide()</span> in JavaScript from the webpage</li>
+				<li>System logging allows for periodic logging of status (DiTour heartbeat, current track, battery state and level and more) to a <a target="_blank" href="https://www.graylog.org">Graylog</a> server</li>
+				<li>Source code in Swift 2.2</li>
+				<li>Various bug fixes and user interface improvements</li>
+			</ul>
+		</div>
+
+
+		<div class="section">
+			<div class="heading"><a name="future">Future</a></div>
+			<ul class="features">
+				<li>Support play, pause and scrubbing of tracks</li>
+				<li>iBeacon support for automated tours</li>
+				<li>Account for daylight savings time change when checking for updates (check the actual file information)</li>
+				<li>Automatic periodic file updates with smart status check</li>
+			</ul>
+		</div>
+
+
+		<div class="section">
+			<div class="heading"><a name="navigation">Site Navigation</a></div>
+			<ul class="features">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Publications.html">Publications and Presentations</a></li>
+				<li>DiTour tour system for iPad</li>
+				<li><a href="Logbook.html">SNS Logbook Project</a></li>
+				<li><a href="CAML.html">CAML</a></li>
+				<li><a href="Utilities.html">Utilities</a></li>
+			</ul>
+		</div>
+
+		<div class="footer">Last updated December 17, 2015 by Tom Pelaia</div>
+	</body>
+</html>
